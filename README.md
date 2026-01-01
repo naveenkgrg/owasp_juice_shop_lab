@@ -24,21 +24,38 @@ If you prefer manual steps, see `labs/00-setup/docker.md`.
 
 This repo does not contain solutions or exploit payloads. Students must not post solutions publicly. Keep your work in a private repository and only share access with the instructor for validation.
 
-## How students submit
+## Bootcamp submission (very simple)
 
-1. Create a private repo in your own GitHub account.
-2. Commit your lab notes, evidence, and reflections to that private repo.
-3. Add the instructor as a collaborator (read access is sufficient).
-4. Open an issue here using the private repo submission form.
+Create a folder for your submission inside `solution_submit/` with your name.
+Use any image format for the screenshot.
 
-Use `.github/ISSUE_TEMPLATE/submit-private-repo.yml` for the submission checklist.
+```
+solution_submit/
+  participant-name/
+    result.md
+    screenshot.png
+```
+
+### result.md format (only these two lines)
+
+```
+Participant Name: Jane Doe
+Challenge Name: SQL Injection
+```
+
+### Submission rules (short)
+
+- Do NOT include exploit payloads.
+- Do NOT include step-by-step solutions.
+- Screenshot should show the challenge marked as solved.
+- This is proof of completion, not solution sharing.
 
 ## Repository structure
 
 - `labs/` step-by-step lab guides (no solutions).
 - `scripts/` helper scripts to run Juice Shop locally.
-- `rubrics/` grading guidance.
 - `templates/` templates for student submissions.
+- `solution_submit/` bootcamp proof submissions (no solutions).
 
 ## Policies and guidance
 
