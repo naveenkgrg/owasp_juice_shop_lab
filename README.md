@@ -26,21 +26,13 @@ This repo does not contain solutions or exploit payloads. Students must not post
 
 ## Bootcamp submission (very simple)
 
-Create a folder for your submission inside `solution_submit/` with your name.
-Use any image format for the screenshot.
+Create a folder for your submission inside `submit_result/` with your name and add a screenshot image of the result.
+Use any image format (png/jpg).
 
 ```
-solution_submit/
+submit_result/
   participant-name/
-    result.md
     screenshot.png
-```
-
-### result.md format (only these two lines)
-
-```
-Participant Name: Jane Doe
-Challenge Name: SQL Injection
 ```
 
 ### Submission rules (short)
@@ -56,6 +48,7 @@ Challenge Name: SQL Injection
 - `scripts/` helper scripts to run Juice Shop locally.
 - `templates/` templates for student submissions.
 - `solution_submit/` bootcamp proof submissions (no solutions).
+- `submit_result/` bootcamp result screenshots.
 
 ## Policies and guidance
 
